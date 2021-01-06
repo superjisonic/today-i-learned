@@ -1,4 +1,4 @@
-# AWS 람다
+# Serverless가 무엇일까? (AWS Lambda, Firebase..등)
 
 Created: Jan 6, 2021 10:41 PM
 
