@@ -24,7 +24,7 @@
 
 ### 프로세스 격리방식, 즉 컨테이너의 등장
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/facf19b0-c090-4567-909f-ce83be475f65/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/facf19b0-c090-4567-909f-ce83be475f65/Untitled.png)
+![이미지1](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/facf19b0-c090-4567-909f-ce83be475f65/Untitled.png)
 
 - 단순히 프로세스를 격리시키기 때문에 가볍고 빠르게 동작한다.
 - CPU나 메모리는 딱 프로세스가 필요한 만큼만 추가로 사용 ⇒ 성능적으로 거의 손실이 없다.
@@ -42,7 +42,7 @@
 
 도커 이미지 : 컨테이너 **실행에 필요한 파일과 설정 값을 포함**하고 있는것
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c5d8e016-5355-497d-acf1-6afa21bb1d09/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c5d8e016-5355-497d-acf1-6afa21bb1d09/Untitled.png)
+![이미지2](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c5d8e016-5355-497d-acf1-6afa21bb1d09/Untitled.png)
 
 ### 특징
 
