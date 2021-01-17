@@ -67,5 +67,28 @@
 
 도커이미지는 `도커 허브에 등록`하거나 Docker Registry 저장소를 직접 만들어 관리할 수 있다.
 
+
+## 도커의 레이어 저장방식
+
+***도커 이미지가 수정될 때마다 다시 다운받는다면 매우 비효율적일 것***
+도커이미지 : 컨테이너를 실행하기 위한 모든 정보를 가지고 있기 때문에 보통 용량이 수백메가에 이름 
+⇒ 기존이미지가 update될때마다 다시 다운받으면 매우 비효율적
+
+### 효율적인 이미지 관리를 위해 도입한 "*레이어" 개념*
+
+유니온 파일 시스템을 이용하여 여러개의 레이어를 하나의 파일 시스템으로 사용할 수 있게 함
+
+이미지 : 여러개의 읽기전용(read only)레이어로 구성되고 **파일이 추가되거나 수정되면 새로운 레이어가 생성**됨
+
+![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0d028cc7-3713-452c-aaa8-993db8de1010/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0d028cc7-3713-452c-aaa8-993db8de1010/Untitled.png)
+
+### 레이어의 예시
+
+
 출처
 [https://subicura.com/2017/01/19/docker-guide-for-beginners-1.html](https://subicura.com/2017/01/19/docker-guide-for-beginners-1.html)
+
+
+
+
+
