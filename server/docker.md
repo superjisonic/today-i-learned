@@ -80,15 +80,33 @@
 
 이미지 : 여러개의 읽기전용(read only)레이어로 구성되고 **파일이 추가되거나 수정되면 새로운 레이어가 생성**됨
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0d028cc7-3713-452c-aaa8-993db8de1010/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0d028cc7-3713-452c-aaa8-993db8de1010/Untitled.png)
+![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0d028cc7-3713-452c-aaa8-993db8de1010/Untitled.png](https://subicura.com/assets/article_images/2017-01-19-docker-guide-for-beginners-1/image-url.png)
 
 ### 레이어의 예시
 
 
+
+
+## 이미지 경로와 도커파일
+
+### url 방식으로 관리하는 이미지
+
+![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a379bb05-95b8-4f1c-a212-3b35152d66e3/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a379bb05-95b8-4f1c-a212-3b35152d66e3/Untitled.png)
+
+- 맨 위의 두 url은 ubuntu:14.04 이미지로, 둘 다 같은 이미지를 가리키는 태그 이다.
+- [docker.io/library](http://docker.io/library) 는 생략 가능해서 ubuntu:14.04 또는 ubuntu:trusty로 사용가능
+- 도커허브 : 본인이 생성한 이미지를 Docker hub를 통해 다른 사람들과 공유할 수 있도록 해주는 곳
+    - 다른 사람이 생성한 이미지를 pull해서 사용할 수 있다
+    - 도커 이미지가 공유되는 공간 (완전 무료..)
+- : 뒤에 붙는것은 태그인데, 이를 잘 활용하면 테스트나 롤백도 쉽게 할 수 있음
+
+### 도커파일(Dockerfile)
+
+**이미지 생성과정을 설명**하기 위해 `Domain Specific Language(DSL)`로 기록한 파일. 이미지를 만들기위한 절차와 과정이 기술됨
+
+⇒ 더이상 의존성 패키지를 설치하고 설정파일을 만든 뒤 메모장이나 블로깅에 적지 않아도 도커파일 하나면 관리를 끝낼 수 있다. (**버전관리까지 가능**하므로, 누구나 이미지 생성과정을 보고 수정가능)
+
 출처
-[https://subicura.com/2017/01/19/docker-guide-for-beginners-1.html](https://subicura.com/2017/01/19/docker-guide-for-beginners-1.html)
-
-
-
+[https://subicura.com/2017/01/19/docker-guide-for-beginners-1.html](https://subicura.com/assets/article_images/2017-01-19-docker-guide-for-beginners-1/image-url.png)
 
 
