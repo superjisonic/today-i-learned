@@ -1,5 +1,6 @@
 # today-i-learned
 Daily log of what I have learned today
+(사실 거의 개인 노션의 복사본)
 
 
 
