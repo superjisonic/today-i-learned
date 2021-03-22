@@ -17,6 +17,9 @@ Daily log of what I have learned today
 ## READING LIST
 
 #### Kafka, 데이터 플랫폼의 최강자
-> 진도율 10%
+> 진도율 20%
 #### 시작하세요 도커/쿠버네티스
-> 진도율 0 %
+> 진도율 15%
+#### 쿠버네티스 인 액션
+> 스터디 진행중 deleicious tangerines 그룹
+
